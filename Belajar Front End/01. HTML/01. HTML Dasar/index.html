@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML Dasar</title>
+</head>
+<body>
+    <h2>Apa itu HTML?</h2>
+    <p>HTML (Hypertext Markup Language) adalah bahasa markah yang digunakan untuk membuat dan menyusun konten di web. 
+        Ini adalah standar utama yang digunakan untuk membuat halaman web dan aplikasi web. HTML memungkinkan Anda untuk 
+        menentukan berbagai elemen di dalam halaman web, seperti teks, gambar, tautan, tabel, dan formulir.</p>
+
+    <h2>Struktur HTML</h2>
+    <p>Dokumen HTML memiliki struktur dasar yang terdiri dari beberapa elemen utama:</p>
+    <ul>
+        <li><code>&lt;!DOCTYPE html&gt;</code>: Menyatakan jenis dokumen dan versi HTML yang digunakan.</li>
+        <li><code>&lt;html&gt;</code>: Elemen root yang membungkus seluruh konten halaman.</li>
+        <li><code>&lt;head&gt;</code>: Bagian ini berisi metadata, seperti judul halaman (<code>&lt;title&gt;</code>), dan informasi lain seperti stylesheet atau skrip.</li>
+        <li><code>&lt;body&gt;</code>: Bagian ini berisi semua konten yang akan ditampilkan di halaman web, seperti teks, gambar, dan tautan.</li>
+    </ul>
+
+    <h2>Membuat Heading</h2>
+    <p>Heading digunakan untuk membuat judul atau subjudul di halaman web. HTML memiliki enam tingkat heading, dari <code>&lt;h1&gt;</code> hingga <code>&lt;h6&gt;</code>, dimana <code>&lt;h1&gt;</code> adalah yang paling penting dan <code>&lt;h6&gt;</code> yang paling tidak penting.</p>
+    <p>Contoh penggunaan heading:</p>
+    <pre>
+        &lt;h1&gt;Ini adalah Heading 1&lt;/h1&gt;
+        &lt;h2&gt;Ini adalah Heading 2&lt;/h2&gt;
+        &lt;h3&gt;Ini adalah Heading 3&lt;/h3&gt;
+        &lt;h4&gt;Ini adalah Heading 4&lt;/h4&gt;
+        &lt;h5&gt;Ini adalah Heading 5&lt;/h5&gt;
+        &lt;h6&gt;Ini adalah Heading 6&lt;/h6&gt;
+    </pre>
+
+    <h2>Membuat Paragraf</h2>
+    <p>Paragraf digunakan untuk menyusun teks menjadi bagian-bagian yang lebih kecil dan lebih mudah dibaca. Elemen <code>&lt;p&gt;</code> digunakan untuk membuat paragraf.</p>
+    <p>Contoh penggunaan paragraf:</p>
+    <pre>
+        &lt;p&gt;Ini adalah paragraf pertama.&lt;/p&gt;
+        &lt;p&gt;Ini adalah paragraf kedua.&lt;/p&gt;
+    </pre>
+
+    <h2>Membuat List</h2>
+    <p>List digunakan untuk menampilkan data atau informasi dalam bentuk daftar. Ada beberapa jenis list yang dapat digunakan dalam HTML:</p>
+    
+    <h3>Unordered List (Daftar Tak Berurutan)</h3>
+    <p>Unordered list dibuat menggunakan elemen <code>&lt;ul&gt;</code> dan setiap item dalam daftar menggunakan elemen <code>&lt;li&gt;</code>. Daftar ini biasanya ditandai dengan bullet points (titik-titik).</p>
+    <p>Contoh penggunaan:</p>
+    <pre>
+        &lt;ul&gt;
+            &lt;li&gt;Item 1&lt;/li&gt;
+            &lt;li&gt;Item 2&lt;/li&gt;
+            &lt;li&gt;Item 3&lt;/li&gt;
+        &lt;/ul&gt;
+    </pre>
+    <p>Hasil:</p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h3>Ordered List (Daftar Berurutan)</h3>
+    <p>Ordered list dibuat menggunakan elemen <code>&lt;ol&gt;</code> dan setiap item dalam daftar menggunakan elemen <code>&lt;li&gt;</code>. Daftar ini biasanya ditandai dengan angka atau huruf.</p>
+    <p>Contoh penggunaan:</p>
+    <pre>
+        &lt;ol&gt;
+            &lt;li&gt;Item 1&lt;/li&gt;
+            &lt;li&gt;Item 2&lt;/li&gt;
+            &lt;li&gt;Item 3&lt;/li&gt;
+        &lt;/ol&gt;
+    </pre>
+    <p>Hasil:</p>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <h3>Description List (Daftar Deskripsi)</h3>
+    <p>Description list digunakan untuk menampilkan daftar istilah dan deskripsinya. Dibuat menggunakan elemen <code>&lt;dl&gt;</code>, <code>&lt;dt&gt;</code> untuk istilah, dan <code>&lt;dd&gt;</code> untuk deskripsi.</p>
+    <p>Contoh penggunaan:</p>
+    <pre>
+        &lt;dl&gt;
+            &lt;dt&gt;HTML&lt;/dt&gt;
+            &lt;dd&gt;Hypertext Markup Language&lt;/dd&gt;
+            &lt;dt&gt;CSS&lt;/dt&gt;
+            &lt;dd&gt;Cascading Style Sheets&lt;/dd&gt;
+        &lt;/dl&gt;
+    </pre>
+    <p>Hasil:</p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+    </dl>
+
+    <h3>Preformatted Text (Teks Praformat)</h3>
+    <p>Preformatted text digunakan untuk menampilkan teks dalam format yang sudah ditentukan sebelumnya, dengan mempertahankan spasi dan line breaks. Dibuat menggunakan elemen <code>&lt;pre&gt;</code>.</p>
+    <p>Contoh penggunaan:</p>
+    <pre>
+        &lt;pre&gt;
+            Ini adalah teks 
+            yang diformat 
+            dengan spasi dan line breaks.
+        &lt;/pre&gt;
+    </pre>
+    <p>Hasil:</p>
+    <pre>
+        Ini adalah teks 
+        yang diformat 
+        dengan spasi dan line breaks.
+    </pre>
+
+    <h3>Membuat List didalam List</h3>
+    <p>Contoh Penggunaan:</p>
+    <pre>
+    &lt;ol&gt;
+        &lt;li&gt;List 1
+            &lt;ol&gt;
+                &lt;li&gt;Sub List 1&lt;/li&gt;
+                &lt;li&gt;Sub List 2&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/li&gt;
+        &lt;li&gt;List 2&lt;/li&gt;
+        &lt;li&gt;List 3&lt;/li&gt;
+    &lt;/ol&gt;
+    </pre>
+
+    <p>Hasil:</p>
+
+    <ol>
+    <li>List 1
+        <ol>
+            <li>Sub List 1</li>
+            <li>Sub List 2</li>
+        </ol>
+    </li>
+    <li>List 2</li>
+    <li>List 3</li>
+    </ol>
+
+    <h3>Perbedaan utama antara elemen-elemen tersebut adalah:</h3>
+    <ul>
+        <li><code>&lt;ul&gt;</code>: Digunakan untuk membuat daftar tak berurutan dengan bullet points.</li>
+        <li><code>&lt;ol&gt;</code>: Digunakan untuk membuat daftar berurutan dengan angka atau huruf.</li>
+        <li><code>&lt;li&gt;</code>: Digunakan sebagai item dalam <code>&lt;ul&gt;</code> atau <code>&lt;ol&gt;</code>.</li>
+        <li><code>&lt;dl&gt;</code>: Digunakan untuk membuat daftar deskripsi dengan istilah dan deskripsinya.</li>
+        <li><code>&lt;dt&gt;</code>: Digunakan untuk istilah dalam <code>&lt;dl&gt;</code>.</li>
+        <li><code>&lt;dd&gt;</code>: Digunakan untuk deskripsi dalam <code>&lt;dl&gt;</code>.</li>
+        <li><code>&lt;pre&gt;</code>: Digunakan untuk menampilkan teks dalam format yang sudah ditentukan sebelumnya, dengan mempertahankan spasi dan line breaks.</li>
+    </ul>
+
+    <h2>Membuat Element Link</h2>
+    <p>
+        Elemen link dalam HTML digunakan untuk membuat tautan ke halaman web lain, file, bagian lain dari halaman yang sama, atau lokasi lain di internet. 
+        Elemen link ini disebut &lt;a&gt;, yang merupakan singkatan dari "anchor"</p>
+    <p>Contoh Penggunaan:</p>
+    <pre>
+        &lt;p&gt;Hubungi Saya
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="https://wa.me/62822980055"&gt;WhatsApp&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="mailto:xxx@example.com"&gt;Email&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;p&gt;
+    </pre>
+    <p>Hasil:</p>
+    <p>Hubungi Saya
+        <ul>
+            <li><a href="https://wa.me/62822980055">WhatsApp</a></li>
+            <li><a href="mailto:xxx@example.com">Email</a></li>
+        </ul>
+    <p>
+    
+    <h2>Memuat Gambar</h2> 
+    <p>Memuat gambar dalam HTML dilakukan menggunakan elemen &lt;img&gt;.</p>
+
+    <p>Contoh Penggunaan:</p>
+    &lt;img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="50" height="50" alt="Logo HTML"&gt;
+   
+    <p>Hasil:</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="50" height="50" alt="Logo HTML">
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Commands</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Git Commands</h1>
+        <h2>Create</h2>
+        <ul>
+            <li><strong>git init</strong>: Menginisialisasi repository Git baru di direktori saat ini. Membuat folder <code>.git</code> yang berisi semua file metadata untuk repository.</li>
+            <li><strong>git clone &lt;repository-url&gt;</strong>: Menggandakan repository Git yang sudah ada dari URL tertentu ke direktori lokal.
+                <ul>
+                    <li><code>--branch &lt;branch-name&gt;</code>: Mengklon branch tertentu.</li>
+                    <li><code>--depth &lt;depth&gt;</code>: Mengklon repository dengan kedalaman tertentu (misalnya hanya commit terbaru).</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Make a Change</h2>
+        <ul>
+            <li><strong>git add &lt;File&gt;</strong>: Menambahkan perubahan pada file tertentu ke staging area.
+                <ul>
+                    <li><code>git add .</code>: Menambahkan semua perubahan di direktori saat ini ke staging area.</li>
+                    <li><code>git add -A</code>: Menambahkan semua perubahan (baik tracked maupun untracked) ke staging area.</li>
+                </ul>
+            </li>
+            <li><strong>git commit -m "&lt;Message&gt;"</strong>: Membuat commit baru dengan pesan tertentu.
+                <ul>
+                    <li><code>git commit -a -m "&lt;Message&gt;"</code>: Menambahkan semua perubahan tracked files dan membuat commit dengan pesan tertentu.</li>
+                </ul>
+            </li>
+            <li><strong>git reset &lt;File&gt;</strong>: Menghapus file tertentu dari staging area tanpa menghapus perubahan pada working directory.
+                <ul>
+                    <li><code>git reset --soft &lt;commit&gt;</code>: Mengatur ulang ke commit tertentu, menyimpan perubahan pada staging area.</li>
+                    <li><code>git reset --hard &lt;commit&gt;</code>: Mengatur ulang ke commit tertentu dan menghapus semua perubahan pada working directory.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Observe</h2>
+        <ul>
+            <li><strong>git status</strong>: Menampilkan status dari working directory dan staging area.
+                <ul>
+                    <li><code>-s</code> atau <code>--short</code>: Menampilkan status dalam format yang lebih ringkas.</li>
+                </ul>
+            </li>
+            <li><strong>git diff</strong>: Menampilkan perubahan yang belum di-stage.
+                <ul>
+                    <li><code>git diff &lt;branch&gt;</code>: Menampilkan perbedaan antara branch saat ini dengan branch tertentu.</li>
+                </ul>
+            </li>
+            <li><strong>git show &lt;commit&gt;</strong>: Menampilkan detail dari commit tertentu.
+                <ul>
+                    <li><code>git show &lt;commit&gt;:&lt;file&gt;</code>: Menampilkan perubahan pada file tertentu di commit tertentu.</li>
+                </ul>
+            </li>
+            <li><strong>git log</strong>: Menampilkan riwayat commit.
+                <ul>
+                    <li><code>--oneline</code>: Menampilkan log dalam format satu baris per commit.</li>
+                    <li><code>--graph</code>: Menampilkan log dalam format grafis.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Sync</h2>
+        <ul>
+            <li><strong>git remote add origin &lt;repository-url&gt;</strong>: Menambahkan remote repository dengan nama <code>origin</code>.
+                <ul>
+                    <li><code>git remote -v</code>: Menampilkan daftar remote repository yang ada.</li>
+                </ul>
+            </li>
+            <li><strong>git push --set-upstream origin &lt;branch&gt;</strong>: Mengirimkan branch lokal ke remote repository dan mengatur upstream tracking.
+                <ul>
+                    <li><code>git push -u origin &lt;branch&gt;</code>: Singkatan dari perintah di atas.</li>
+                </ul>
+            </li>
+            <li><strong>git push</strong>: Mengirimkan commit dari branch lokal ke remote repository.
+                <ul>
+                    <li><code>--force</code>: Memaksa push yang dapat menimpa perubahan di remote repository.</li>
+                </ul>
+            </li>
+            <li><strong>git pull</strong>: Mengambil dan menggabungkan perubahan dari remote repository ke branch lokal.
+                <ul>
+                    <li><code>--rebase</code>: Menggunakan rebase alih-alih merge.</li>
+                </ul>
+            </li>
+            <li><strong>git fetch</strong>: Mengambil perubahan dari remote repository tanpa menggabungkannya ke branch lokal.
+                <ul>
+                    <li><code>--all</code>: Mengambil perubahan dari semua remote repository yang dikonfigurasi.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Branch</h2>
+        <ul>
+            <li><strong>git branch</strong>: Menampilkan daftar branch atau membuat branch baru.
+                <ul>
+                    <li><code>-d &lt;branch&gt;</code>: Menghapus branch tertentu.</li>
+                    <li><code>-m &lt;new-name&gt;</code>: Mengganti nama branch saat ini.</li>
+                </ul>
+            </li>
+            <li><strong>git checkout &lt;branch&gt;</strong>: Berpindah ke branch tertentu.
+                <ul>
+                    <li><code>-b &lt;branch&gt;</code>: Membuat branch baru dan langsung berpindah ke branch tersebut.</li>
+                </ul>
+            </li>
+            <li><strong>git merge &lt;branch&gt;</strong>: Menggabungkan branch tertentu ke branch saat ini.
+                <ul>
+                    <li><code>--no-ff</code>: Menghindari fast-forward merge.</li>
+                </ul>
+            </li>
+            <li><strong>git tag</strong>: Menambahkan tag pada commit.
+                <ul>
+                    <li><code>-a &lt;tag&gt; -m &lt;message&gt;</code>: Membuat annotated tag dengan pesan tertentu.</li>
+                    <li><code>-d &lt;tag&gt;</code>: Menghapus tag tertentu.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

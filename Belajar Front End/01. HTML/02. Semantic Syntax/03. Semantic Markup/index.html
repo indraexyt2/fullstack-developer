@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catatan Semantic Markup</title>
+</head>
+<body>
+    <h1>Catatan Semantic Markup dalam HTML</h1>
+    
+    <section>
+        <h2>Pengantar</h2>
+        <p>Semantic markup dalam HTML adalah penggunaan elemen HTML yang memiliki arti (atau semantik) khusus untuk merepresentasikan struktur dan konten dari dokumen. Elemen-elemen ini membantu dalam meningkatkan keterbacaan kode oleh manusia serta membantu mesin seperti mesin pencari dan pembaca layar untuk memahami konten dengan lebih baik.</p>
+    </section>
+
+    <section>
+        <h2>Contoh Elemen Semantik</h2>
+        
+        <header>
+            <h3>&lt;header&gt;</h3>
+            <p>Digunakan untuk bagian kepala dari sebuah halaman atau bagian dari halaman yang biasanya berisi judul, logo, dan navigasi utama.</p>
+            <pre>
+&lt;header&gt;
+    &lt;h1&gt;Judul Situs&lt;/h1&gt;
+    &lt;nav&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a href="#"&gt;Beranda&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;Tentang&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;Kontak&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/nav&gt;
+&lt;/header&gt;
+            </pre>
+        </header>
+
+        <nav>
+            <h3>&lt;nav&gt;</h3>
+            <p>Digunakan untuk bagian navigasi utama dari sebuah halaman.</p>
+            <pre>
+&lt;nav&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Beranda&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Artikel&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Kontak&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+            </pre>
+        </nav>
+
+        <article>
+            <h3>&lt;article&gt;</h3>
+            <p>Digunakan untuk konten independen yang dapat berdiri sendiri seperti artikel, blog post, atau berita.</p>
+            <pre>
+&lt;article&gt;
+    &lt;h2&gt;Judul Artikel&lt;/h2&gt;
+    &lt;p&gt;Ini adalah paragraf pertama dari artikel.&lt;/p&gt;
+&lt;/article&gt;
+            </pre>
+        </article>
+
+        <section>
+            <h3>&lt;section&gt;</h3>
+            <p>Digunakan untuk membagi konten menjadi beberapa bagian atau bab yang terkait.</p>
+            <pre>
+&lt;section&gt;
+    &lt;h2&gt;Bagian 1&lt;/h2&gt;
+    &lt;p&gt;Konten untuk bagian 1.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section&gt;
+    &lt;h2&gt;Bagian 2&lt;/h2&gt;
+    &lt;p&gt;Konten untuk bagian 2.&lt;/p&gt;
+&lt;/section&gt;
+            </pre>
+        </section>
+
+        <aside>
+            <h3>&lt;aside&gt;</h3>
+            <p>Digunakan untuk konten tambahan yang terkait tetapi bukan bagian utama, seperti sidebar atau catatan kaki.</p>
+            <pre>
+&lt;aside&gt;
+    &lt;h2&gt;Catatan&lt;/h2&gt;
+    &lt;p&gt;Ini adalah informasi tambahan terkait artikel utama.&lt;/p&gt;
+&lt;/aside&gt;
+            </pre>
+        </aside>
+
+        <footer>
+            <h3>&lt;footer&gt;</h3>
+            <p>Digunakan untuk bagian kaki dari halaman atau bagian dari halaman yang biasanya berisi informasi penulis, hak cipta, dan link tambahan.</p>
+            <pre>
+&lt;footer&gt;
+    &lt;p&gt;&amp;copy; 2024 Situs Web Saya&lt;/p&gt;
+&lt;/footer&gt;
+            </pre>
+        </footer>
+
+        <main>
+            <h3>&lt;main&gt;</h3>
+            <p>Digunakan untuk konten utama dari halaman yang unik, mengabaikan konten berulang seperti navigasi dan sidebar.</p>
+            <pre>
+&lt;main&gt;
+    &lt;article&gt;
+        &lt;h2&gt;Judul Utama&lt;/h2&gt;
+        &lt;p&gt;Ini adalah konten utama halaman.&lt;/p&gt;
+    &lt;/article&gt;
+&lt;/main&gt;
+            </pre>
+        </main>
+    </section>
+</body>
+</html>

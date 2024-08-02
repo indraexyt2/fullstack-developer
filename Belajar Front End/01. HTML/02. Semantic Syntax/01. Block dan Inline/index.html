@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline dan Block</title>
+    <style>
+        .example {
+            border: 1px solid black;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .inline-example {
+            color: red;
+        }
+        .block-example {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Penjelasan Inline dan Block</h1>
+    
+    <h2>Elemen Inline</h2>
+    <p>Elemen inline adalah elemen yang tidak memulai baris baru dan hanya menempati ruang yang dibutuhkan oleh konten di dalamnya. Elemen-elemen ini umumnya digunakan untuk memformat teks atau konten kecil lainnya.</p>
+    
+    <h3>Contoh Elemen Inline:</h3>
+    <ul>
+        <li>&lt;span&gt;: Elemen ini digunakan untuk membungkus teks atau elemen lain tanpa mempengaruhi tata letak secara keseluruhan.</li>
+        <li>&lt;a&gt;: Tautan (link) yang biasanya digunakan untuk navigasi.</li>
+        <li>&lt;img&gt;: Elemen gambar yang disematkan di dalam teks.</li>
+    </ul>
+    
+    <div class="example">
+        <p>Contoh Penggunaan &lt;span&gt;:</p>
+        <p>Ini adalah contoh teks dengan <span class="inline-example">teks berwarna merah</span>.</p>
+    </div>
+
+    <h2>Elemen Block</h2>
+    <p>Elemen block adalah elemen yang memulai baris baru dan mengambil seluruh lebar kontainer induknya, sehingga biasanya digunakan untuk struktur dan tata letak halaman.</p>
+    
+    <h3>Contoh Elemen Block:</h3>
+    <ul>
+        <li>&lt;div&gt;: Elemen ini digunakan untuk membungkus konten dan membuat blok tata letak.</li>
+        <li>&lt;p&gt;: Elemen paragraf yang digunakan untuk teks.</li>
+        <li>&lt;h1&gt; - &lt;h6&gt;: Elemen heading untuk judul dengan berbagai ukuran.</li>
+    </ul>
+    
+    <div class="example">
+        <p>Contoh Penggunaan &lt;div&gt;:</p>
+        <div style="border: 1px solid black; padding: 10px;">
+            <h2>Judul Blok</h2>
+            <p>Ini adalah sebuah paragraf di dalam div.</p>
+        </div>
+    </div>
+
+    <h2>Hubungan Antara Elemen Inline dan Block</h2>
+    <p>Elemen inline dan block memiliki hubungan dalam hal bagaimana mereka digunakan untuk menyusun dan memformat konten di halaman web. Elemen block sering digunakan untuk struktur utama, sementara elemen inline digunakan untuk detail dan format dalam elemen block.</p>
+    
+    <div class="example">
+        <p>Contoh Gabungan Penggunaan Inline dan Block:</p>
+        <div style="border: 1px solid black; padding: 10px;">
+            <h2>Judul Blok</h2>
+            <p>Ini adalah sebuah paragraf dengan <span class="block-example">teks tebal</span> di dalamnya.</p>
+        </div>
+    </div>
+
+</body>
+</html>
