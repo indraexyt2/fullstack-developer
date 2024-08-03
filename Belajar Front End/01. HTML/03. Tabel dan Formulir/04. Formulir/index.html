@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+</head>
+<body>
+    <h2>Apa itu Formulir?</h2>
+    <p>Formulir (form) dalam HTML adalah elemen yang digunakan untuk mengumpulkan data dari pengguna. 
+        Formulir biasanya berisi berbagai elemen input seperti kotak teks, tombol radio, kotak centang, menu dropdown, 
+        dan tombol submit yang memungkinkan pengguna untuk mengirimkan data ke server.</p>
+    <p>Berikut adalah contoh formulir.</p>
+    <h1>Formulir Pendaftaran</h1>
+    <form action="/submit_form" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="gender">Jenis Kelamin:</label><br>
+        <input type="radio" id="pria" name="gender" value="pria">
+        <label for="pria">Pria</label><br>
+        <input type="radio" id="wanita" name="gender" value="wanita">
+        <label for="wanita">Wanita</label><br><br>
+        
+        <label for="hobi">Hobi:</label><br>
+        <input type="checkbox" id="membaca" name="hobi" value="membaca">
+        <label for="membaca">Membaca</label><br>
+        <input type="checkbox" id="berolahraga" name="hobi" value="berolahraga">
+        <label for="berolahraga">Berolahraga</label><br>
+        <input type="checkbox" id="menulis" name="hobi" value="menulis">
+        <label for="menulis">Menulis</label><br><br>
+        
+        <label for="negara">Negara:</label>
+        <select id="negara" name="negara">
+            <option value="indonesia">Indonesia</option>
+            <option value="malaysia">Malaysia</option>
+            <option value="singapore">Singapore</option>
+        </select><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+    <h2>Penjelasan Elemen Formulir HTML</h2>
+    
+    <p><b>&lt;form&gt;</b><br>
+    Elemen utama yang menandai awal dan akhir formulir. Atribut <code>action</code> menentukan URL di mana data formulir akan dikirim, dan atribut <code>method</code> menentukan metode pengiriman (biasanya "post" atau "get").</p>
+    
+    <p><b>&lt;label&gt;</b><br>
+    Elemen untuk memberikan label deskriptif pada elemen input.</p>
+    
+    <p><b>&lt;input&gt;</b><br>
+    Elemen input untuk menerima data dari pengguna. Jenis input dapat bervariasi seperti teks (<code>type="text"</code>), email (<code>type="email"</code>), radio (<code>type="radio"</code>), dan checkbox (<code>type="checkbox"</code>).</p>
+    
+    <p><b>&lt;select&gt; dan &lt;option&gt;</b><br>
+    Elemen untuk membuat menu dropdown.</p>
+    
+    <p><b>&lt;input type="submit"&gt;</b><br>
+    Tombol untuk mengirim data formulir.</p>
+</body>
+</html>

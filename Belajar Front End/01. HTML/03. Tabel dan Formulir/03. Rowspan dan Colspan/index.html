@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rowspan dan Colspan</title>
+</head>
+<body>
+    <h1>Rowspan dan Colspan</h1>
+
+    <h2>Rowspan</h2>
+    <p>Atribut <code>rowspan</code> digunakan untuk menggabungkan sel secara vertikal, yaitu menggabungkan beberapa baris menjadi satu sel.</p>
+    <h3>Contoh Rowspan:</h3>
+    <table border="1">
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Rowspan 2 Rows</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+        </tr>
+        <tr>
+            <td>Cell 4</td>
+            <td>Cell 5</td>
+        </tr>
+    </table>
+
+    <h2>Colspan</h2>
+    <p>Atribut <code>colspan</code> digunakan untuk menggabungkan sel secara horizontal, yaitu menggabungkan beberapa kolom menjadi satu sel.</p>
+    <h3>Contoh Colspan:</h3>
+    <table border="1">
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+        </tr>
+        <tr>
+            <td colspan="2">Colspan 2 Columns</td>
+            <td>Cell 3</td>
+        </tr>
+        <tr>
+            <td>Cell 4</td>
+            <td>Cell 5</td>
+            <td>Cell 6</td>
+        </tr>
+    </table>
+
+    <h2>Gabungan Rowspan dan Colspan</h2>
+    <p>Jugadapat menggabungkan penggunaan <code>rowspan</code> dan <code>colspan</code> dalam tabel yang sama untuk menggabungkan sel baik secara vertikal maupun horizontal.</p>
+    <h3>Contoh Gabungan:</h3>
+    <table border="1">
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+            <th>Header 4</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Rowspan 2 Rows</td>
+            <td colspan="2">Colspan 2 Columns</td>
+            <td>Cell 4</td>
+        </tr>
+        <tr>
+            <td>Cell 5</td>
+            <td>Cell 6</td>
+            <td>Cell 7</td>
+        </tr>
+    </table>
+</body>
+</html>

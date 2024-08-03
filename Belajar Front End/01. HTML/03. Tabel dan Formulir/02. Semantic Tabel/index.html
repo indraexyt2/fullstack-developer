@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic tabel</title>
+</head>
+<body>
+    <h1>Tabel Semantik HTML</h1>
+    <p>Dalam HTML, tabel semantik digunakan untuk menyajikan data dalam format yang terstruktur, memudahkan pemahaman oleh manusia dan mesin (seperti mesin pencari dan pembaca layar). Tabel semantik menggunakan elemen-elemen berikut:</p>
+    <ul>
+        <li><strong>&lt;table&gt;</strong>: Elemen utama yang mendefinisikan tabel.</li>
+        <li><strong>&lt;thead&gt;</strong>: Elemen yang digunakan untuk mendefinisikan bagian header dari tabel.</li>
+        <li><strong>&lt;tbody&gt;</strong>: Elemen yang digunakan untuk mendefinisikan bagian tubuh (konten) dari tabel.</li>
+        <li><strong>&lt;tfoot&gt;</strong>: Elemen yang digunakan untuk mendefinisikan bagian footer dari tabel.</li>
+        <li><strong>&lt;tr&gt;</strong>: Elemen yang digunakan untuk mendefinisikan baris dalam tabel.</li>
+        <li><strong>&lt;th&gt;</strong>: Elemen yang digunakan untuk mendefinisikan sel header dalam tabel.</li>
+        <li><strong>&lt;td&gt;</strong>: Elemen yang digunakan untuk mendefinisikan sel data dalam tabel.</li>
+    </ul>
+
+    <h2>Contoh Kode HTML</h2>
+    <p>Berikut adalah contoh kode HTML yang menunjukkan cara menggunakan elemen-elemen tabel semantik:</p>
+
+    <pre>
+        <code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;Contoh Tabel Semantik&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;table&gt;
+                    &lt;thead&gt;
+                        &lt;tr&gt;
+                            &lt;th&gt;Nama&lt;/th&gt;
+                            &lt;th&gt;Umur&lt;/th&gt;
+                            &lt;th&gt;Profesi&lt;/th&gt;
+                        &lt;/tr&gt;
+                    &lt;/thead&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;Ali&lt;/td&gt;
+                            &lt;td&gt;25&lt;/td&gt;
+                            &lt;td&gt;Insinyur&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;Budi&lt;/td&gt;
+                            &lt;td&gt;30&lt;/td&gt;
+                            &lt;td&gt;Dokter&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;Citra&lt;/td&gt;
+                            &lt;td&gt;28&lt;/td&gt;
+                            &lt;td&gt;Guru&lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                    &lt;tfoot&gt;
+                        &lt;tr&gt;
+                            &lt;td colspan="3"&gt;Data per Januari 2024&lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/tfoot&gt;
+                &lt;/table&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </code>
+    </pre>
+
+    <p>Hasilnya:</p>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contoh Tabel Semantik</title>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Umur</th>
+                    <th>Profesi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ali</td>
+                    <td>25</td>
+                    <td>Insinyur</td>
+                </tr>
+                <tr>
+                    <td>Budi</td>
+                    <td>30</td>
+                    <td>Dokter</td>
+                </tr>
+                <tr>
+                    <td>Citra</td>
+                    <td>28</td>
+                    <td>Guru</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Data per Januari 2024</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+    </html>
+</body>
+</html>

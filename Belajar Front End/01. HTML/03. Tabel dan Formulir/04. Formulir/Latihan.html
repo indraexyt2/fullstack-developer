@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Pengguna</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Pengguna</h1>
+    <form action="/submit_registration" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="password">Kata Sandi:</label>
+        <input type="password" id="password" name="password" minlength="6" maxlength="20" required><br><br>
+        
+        <label for="pria">Pria</label>
+        <input type="radio" id="pria" name="gender" value="pria">
+        <label for="wanita">Wanita</label>
+        <input type="radio" id="wanita" name="gender" value="wanita"><br><br>
+        
+        <label for="hobi">Hobi:</label><br>
+        <input type="checkbox" id="membaca" name="hobi" value="membaca">
+        <label for="membaca">Membaca</label><br>
+        <input type="checkbox" id="berolahraga" name="hobi" value="berolahraga">
+        <label for="berolahraga">Berolahraga</label><br>
+        <input type="checkbox" id="menulis" name="hobi" value="menulis">
+        <label for="menulis">Menulis</label><br><br>
+        
+        <label for="negara">Negara:</label>
+        <select id="negara" name="negara">
+            <option value="indonesia">Indonesia</option>
+            <option value="malaysia">Malaysia</option>
+            <option value="singapore">Singapore</option>
+        </select><br><br>
+        
+        <label for="dob">Tanggal Lahir:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        <input type="submit" value="Daftar">
+    </form>
+</body>
+</html>
