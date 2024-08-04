@@ -1,0 +1,116 @@
+/* Mengatur warna teks */
+.color-text-1 {
+    color: red;
+}
+
+.color-text-2 {
+    color: blue;
+}
+
+/* Mengatur perataan teks */
+.text-align-1 {
+    text-align: left;
+}
+
+.text-align-2 {
+    text-align: center;
+}
+
+.text-align-3 {
+    text-align: right;
+}
+
+/* Mengatur dekorasi teks */
+.text-decoration-1 {
+    text-decoration: underline;
+}
+
+.text-decoration-2 {
+    text-decoration: line-through;
+}
+
+/* Mengatur transformasi teks */
+.text-transform-1 {
+    text-transform: uppercase;
+}
+
+.text-transform-2 {
+    text-transform: lowercase;
+}
+
+.text-transform-3 {
+    text-transform: capitalize;
+}
+
+/* Mengatur indentasi teks */
+.text-indent-1 {
+    text-indent: 20px;
+}
+
+.text-indent-2 {
+    text-indent: 50px;
+}
+
+/* Mengatur jarak antar karakter */
+.letter-spacing-1 {
+    letter-spacing: 1px;
+}
+
+.letter-spacing-2 {
+    letter-spacing: 3px;
+}
+
+/* Mengatur tinggi baris */
+.line-height-1 {
+    line-height: 1.2;
+}
+
+.line-height-2 {
+    line-height: 2;
+}
+
+/* Mengatur jarak antar kata */
+.word-spacing-1 {
+    word-spacing: 5px;
+}
+
+.word-spacing-2 {
+    word-spacing: 10px;
+}
+
+/* Mengatur ketebalan font */
+.font-weight-1 {
+    font-weight: normal;
+}
+
+.font-weight-2 {
+    font-weight: bold;
+}
+
+/* Mengatur gaya font */
+.font-style-1 {
+    font-style: normal;
+}
+
+.font-style-2 {
+    font-style: italic;
+}
+
+/* Mengatur ukuran font */
+.font-size-1 {
+    font-size: 14px;
+}
+
+.font-size-2 {
+    font-size: 20px;
+}
+
+/* Mengatur jenis font */
+.font-family-1 {
+    font-family: Arial, sans-serif;
+}
+
+.font-family-2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
