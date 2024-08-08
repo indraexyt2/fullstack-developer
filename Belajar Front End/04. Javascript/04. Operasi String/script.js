@@ -18,6 +18,7 @@ console.log(`data 3 dan 4 jika digabung adalah ${data3.concat(' ',data4)}`)
 let data6 = "Indrawansyah";
 
 console.log(`n adalah index ke ${data6.indexOf('n')}`);
+console.log(data6[5]);
 
 // 4. substring
 let data7 = "Hafiza Ananta"
