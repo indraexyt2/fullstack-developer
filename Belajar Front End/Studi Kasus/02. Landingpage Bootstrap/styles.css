@@ -1,0 +1,11 @@
+.navbar-nav .nav-item:hover {
+    background-color: rgba(190, 190, 190, 0.5);
+}
+
+.dropdown-item:hover {
+    background-color: rgba(190, 190, 190, 0.5);
+}
+
+#fitur img{
+    height: 150px;
+}
