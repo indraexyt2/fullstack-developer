@@ -74,3 +74,6 @@ let hewan = ["Kucing", "Anjing", "Kelinci", "Burung", "Ikan"];
 // splice: Menghapus 2 elemen dari indeks 1
 hewan.splice(1, 4, "Kodok", "Angsa");
 console.log(hewan);
+
+// nested array
+
