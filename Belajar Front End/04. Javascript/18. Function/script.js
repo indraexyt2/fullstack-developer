@@ -35,6 +35,30 @@ const tambahkan = function(angka1, angka2) {
     return angka1 + angka2;
 };
 
-// Memanggil fungsi dengan angka
 console.log(tambahkan(5, 7)); // Output: 12
 console.log(tambahkan(10, 20)); // Output: 30
+
+// function sebagai argument
+function empatKali(haha){
+    haha();
+    haha();
+    haha();
+    haha();
+}
+
+function dice1(){
+    const hasil = Math.floor(Math.random() * 6) + 1;
+    console.log(hasil);
+}
+
+function random(){
+    const hasil2 = Math.random() * 6 + 1;
+    console.log(hasil2);
+}
+
+empatKali(dice1);
+
+empatKali(random);
+
+
+
