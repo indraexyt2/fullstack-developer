@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulasi DOM dengan JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Halaman Contoh Manipulasi DOM</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="container">
+        <article id="home">
+            <h2>Selamat Datang</h2>
+            <p>Ini adalah halaman contoh untuk mempelajari manipulasi DOM dengan JavaScript.</p>
+        </article>
+        
+        <article id="about">
+            <h2>Tentang Kami</h2>
+            <p>Kami adalah tim pengembang web yang bersemangat untuk belajar dan berbagi ilmu.</p>
+            <img src="https://via.placeholder.com/150" alt="Gambar Contoh">
+        </article>
+
+        <article id="contact">
+            <h2>Kontak Kami</h2>
+            <form id="contact-form">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </article>
+
+        <div id="dynamic-content">
+            <h3>Konten Dinamis</h3>
+            <ul id="item-list">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <button id="add-item">Tambah Item</button>
+            <button id="remove-item">Hapus Item</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Belajar JavaScript. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

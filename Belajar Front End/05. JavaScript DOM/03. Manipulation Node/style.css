@@ -1,0 +1,183 @@
+/* Mengatur gaya dasar untuk body */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Gaya untuk header */
+header {
+    background-color: #ffffff;
+    color: #333;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+/* Gaya untuk navigasi */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+nav ul li a:hover {
+    background-color: #e0e0e0;
+}
+
+/* Mengatur container utama */
+.container {
+    padding: 20px;
+    background-color: white;
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Gaya untuk article */
+article {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+article h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Gaya untuk gambar dalam article */
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk form */
+form {
+    display: grid;
+    gap: 10px;
+}
+
+form label {
+    font-weight: 500;
+    color: #555;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #fafafa;
+    transition: border-color 0.2s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+form button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Gaya untuk konten dinamis */
+#dynamic-content {
+    margin-top: 40px;
+}
+
+#dynamic-content h3 {
+    margin-bottom: 15px;
+    font-size: 1.4em;
+    color: #333;
+}
+
+/* Gaya untuk daftar item */
+#item-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#item-list li {
+    margin: 8px 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s ease;
+}
+
+#item-list li:hover {
+    background-color: #e0e0e0;
+}
+
+/* Gaya untuk tombol tambah dan hapus item */
+#dynamic-content button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#dynamic-content button:hover {
+    background-color: #0056b3;
+}
+
+/* Gaya untuk footer */
+footer {
+    background-color: #ffffff;
+    color: #777;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
+    margin-top: auto;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="title">Belajar Manipulasi Elemen</h1>
+        <nav>
+            <ul id="menu">
+                <li><a href="#" id="homeLink">Home</a></li>
+                <li><a href="#" id="aboutLink">About</a></li>
+                <li><a href="#" id="contactLink">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="intro">
+            <h2>Pengantar</h2>
+            <p id="introText">Ini adalah paragraf pengantar.</p>
+        </section>
+        
+        <section id="features">
+            <h2>Fitur-Fitur</h2>
+            <ul id="featuresList">
+                <li class="fitur">Fitur 1: Interaksi dinamis dengan pengguna</li>
+                <li class="fitur">Fitur 2: Manipulasi elemen secara real-time</li>
+                <li class="fitur">Fitur 3: Responsif dan mudah digunakan</li>
+            </ul>
+            <button type="button" id="ubah-warna">Ubah warna</button>
+        </section>
+
+        <section id="feedback">
+            <h2>Feedback</h2>
+            <form id="feedbackForm">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message"></textarea>
+                
+                <button type="button" id="submitButton">Kirim Feedback</button>
+            </form>
+        </section>
+
+        <section id="output">
+            <h2>Hasil Manipulasi</h2>
+            <div id="resultArea"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024, Belajar JavaScript</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
