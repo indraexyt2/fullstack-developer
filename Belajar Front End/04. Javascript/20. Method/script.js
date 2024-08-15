@@ -17,3 +17,11 @@ angka.forEach(function(nilai, haha) {
 });
 
 // map method
+let angka = [1, 2, 3, 4, 5];
+
+let angkaBaru = angka.map(function(nilai) {
+    return nilai * 2;
+});
+
+console.log(angkaBaru); // [2, 4, 6, 8, 10]
+
