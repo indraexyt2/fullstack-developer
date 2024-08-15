@@ -59,7 +59,7 @@ nav ul li a:hover {
     padding: 20px;
     background-color: white;
     margin: 30px auto;
-    max-width: 800px;
+    width: 70%;;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
