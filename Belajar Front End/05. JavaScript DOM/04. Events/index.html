@@ -3,11 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event</title>
+    <title>Latihan JavaScript dengan Event Handling</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button type="button" id="ubah-warna">Kirim Feedback</button>
+    <header>
+        <h1>Latihan JavaScript: Event Handling dan Manipulasi DOM</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="home-link">Home</a></li>
+                <li><a href="#" id="services-link">Services</a></li>
+                <li><a href="#" id="contact-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="form-section">
+            <h2>Formulir Pendaftaran</h2>
+            <form id="registration-form">
+                <label for="name">Nama Lengkap:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="gender">Jenis Kelamin:</label>
+                <select id="gender" name="gender">
+                    <option value="Laki-laki">Laki-laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                </select>
+
+                <div class="checkbox-container">
+                    <input type="checkbox" id="terms" name="terms" value="Setuju">
+                    <label for="terms">Saya setuju dengan syarat dan ketentuan</label>
+                </div>
+
+                <button type="submit" id="submit-button">Daftar</button>
+            </form>
+        </section>
+
+        <section id="table-section">
+            <h2>Daftar Pengguna Terdaftar</h2>
+            <table id="user-table">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Email</th>
+                        <th>Jenis Kelamin</th>
+                        <th>Terms</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data pengguna akan ditambahkan di sini -->
+                </tbody>
+            </table>
+        </section>
+
+        <section id="content-section">
+            <h2>Artikel Pilihan</h2>
+            <article>
+                <h3>Judul Artikel 1</h3>
+                <p>Ini adalah paragraf dari artikel pertama. Gunakan bagian ini untuk memanipulasi teks, gambar, atau elemen lain dengan JavaScript.</p>
+                <button class="btn-toggle-article">Sembunyikan Artikel</button>
+            </article>
+
+            <article>
+                <h3>Judul Artikel 2</h3>
+                <p>Ini adalah paragraf dari artikel kedua. Anda dapat mengubah gaya atau konten dari artikel ini menggunakan JavaScript.</p>
+                <button class="btn-toggle-article">Sembunyikan Artikel</button>
+            </article>
+        </section>
+
+        <section id="event-section">
+            <h2>Event Handling</h2>
+            <button id="change-color-btn" onclick="ubahWarna()">Ubah Warna</button>
+            <input type="text" id="input-text" placeholder="Ketik sesuatu di sini...">
+            <p id="output-text">Teks dari input akan muncul di sini.</p>
+        </section>
+
+        <section id="list-section">
+            <h2>Latihan Menambahkan Item ke Daftar</h2>
+            <input type="text" id="new-item-text" placeholder="Masukkan item baru...">
+            <button id="add-item-btn">Tambah Item</button>
+
+            <ul id="item-list">
+                <!-- Item-item baru akan ditambahkan di sini -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Latihan JavaScript. Semua Hak Dilindungi.</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
