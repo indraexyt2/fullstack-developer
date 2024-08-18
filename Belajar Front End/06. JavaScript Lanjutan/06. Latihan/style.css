@@ -1,0 +1,108 @@
+* {
+    font-family: Tahoma;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+body {
+    background-color: #ccc;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.tambah-daftar-belanja,
+.daftar-belanjaan {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    margin: 0 10px;
+    height: 330px;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+
+input {
+    height: 1.5rem;
+    border: none;
+    background-color: #efefef;
+    border-radius: 5px;
+}
+
+#harga-barang-total {
+    background-color: #d7d3d3;
+}
+
+select {
+    height: 1.8rem;
+    border: none;
+    background-color: #efefef;
+    border-radius: 5px;
+}
+
+.item-submit {
+    display: flex;
+    justify-content: center;
+}
+
+#submit {
+    background-color: #0d6efd;
+    margin-top: 15px;
+    height: 1.7rem;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #0e66ea;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    padding: 8px;
+    padding-right: 20px;
+    text-align: left;
+    margin-right: 20px;
+    
+}
+
+table th {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Warna abu-abu untuk baris genap */
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: white; /* Warna putih untuk baris ganjil */
+}

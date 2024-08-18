@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+body {
+    background-color: #ccc;
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    margin: 20px auto;
+    border: 5px solid white;
+}
+
+.container img {
+    width: 600px;
+    display: block;
+}
+
+.thumbnail {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thumbnail img {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.thumbnail img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.fade {
+    opacity: 0;
+    animation: fadeIn 0.9s forwards;
+
+}
+
+.active {
+    opacity: 0.5;
+}

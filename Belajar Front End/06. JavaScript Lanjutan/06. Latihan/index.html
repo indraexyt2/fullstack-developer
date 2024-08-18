@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tambah-daftar-belanja">
+            <div class="daftar-belanja">
+                <h2>Tambah Daftar Belanjaan</h2>
+                <form>
+                    <div class="item-info">
+                        <label for="nama-barang">Nama Barang</label>
+                        <input type="text" id="nama-barang">
+                    </div>
+                    <div class="item-info">
+                        <label for="jumlah-barang">Jumlah</label>
+                        <input type="text" id="jumlah-barang">
+                    </div>
+                    <div class="item-info">
+                        <label for="harga-barang-satuan">Harga Satuan</label>
+                        <input type="text" id="harga-barang-satuan">
+                    </div>
+                    <div class="item-info">
+                        <label for="kategori-barang">Kategori</label>
+                        <select id="kategori-barang">
+                            <option value="" disabled selected>Pilih Kategori</option>
+                            <option value="Elektronik">Elektronik</option>
+                            <option value="Makanan">Makanan</option>
+                            <option value="Fashion">Fashion</option>
+                        </select>
+                    </div>
+                    <div class="item-submit">
+                        <button id="submit" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="daftar-belanjaan">
+            <div class="belanjaan">
+                <h2>Daftar Belanjaan</h2>
+                <div class="filter-barang">
+                    <label for="filter-kategori">Filter Berdasarkan Kategori:</label>
+                    <select id="filter-kategori">
+                        <option value="" selected>Semua Kategori</option>
+                        <option value="Elektronik">Elektronik</option>
+                        <option value="Makanan">Makanan</option>
+                        <option value="Fashion">Fashion</option>
+                    </select>
+                </div>
+                <table>
+                    <thead>
+                        <th>No</th>
+                        <th>Nama</th>
+                        <th>Jumlah</th>
+                        <th>Harga Total</th>
+                        <th>Kategori</th>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
