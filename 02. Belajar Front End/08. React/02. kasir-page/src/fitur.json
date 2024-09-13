@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Point of Sales",
+        "description": "Dengan Aplikasi POS (Point of Sales), proses penjualan di toko dapat dikelola dengan lebih cepat dan akurat",
+        "image": "https://cdn.kasirpintar.co.id/design_v2/images/home_v2/pointofsale_homenew.webp"
+    },
+    {
+        "id": 2,
+        "title": "Manajemen Stok Barang (Inventory)",
+        "description": "Atur dan monitoring pengelolaan stok barang yang tersedia di sistem dan gudang secara akurat",
+        "image": "https://cdn.kasirpintar.co.id/design_v2/images/home_v2/stokbahanbaku_homenew.webp"
+    },
+    {
+        "id": 3,
+        "title": "Optimalkan Pembayaran Digital dengan QRIS",
+        "description": "Lengkapi kebutuhan transaksi penjualan dengan QRIS dan metode pembayaran lainnya hanya dengan scan barcode",
+        "image": "https://cdn.kasirpintar.co.id/design_v2/images/home_v2/qris_homenew.webp"
+    },
+    {
+        "id": 4,
+        "title": "Laporan Usaha Lengkap",
+        "description": "Nikmati akses laporan usaha lengkap dari aplikasi kasir pintar dimana saja dan kapan saja",
+        "image": "https://cdn.kasirpintar.co.id/design_v2/images/home_v2/laporan_homenew.webp"
+    },
+    {
+        "id": 5,
+        "title": "Solusi Pembayaran Online dengan PPOB Kasir Pintar",
+        "description": "Cukup dengan beberapa klik, kamu bisa melakukan pembayaran tagihan listrik, air, telepon, TV kabel, dan banyak lagi dengan mudah dan cepat",
+        "image": "https://cdn.kasirpintar.co.id/design_v2/images/home_v2/ppob_homenew.webp"
+    },
+    {
+        "id": 6,
+        "title": "Hardware",
+        "description": "Percepat Proses Penjualan dan Pembayaran dengan Hardware Mesin kasir terbaik",
+        "image": "https://cdn.kasirpintar.co.id/design_v2/images/home_v2/hardware_homenew.webp"
+    }
+]

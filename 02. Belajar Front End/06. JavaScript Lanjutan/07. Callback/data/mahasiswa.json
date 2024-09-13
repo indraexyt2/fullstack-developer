@@ -1,0 +1,20 @@
+[
+    {
+        "nama": "Indrawansyah",
+        "nim": "12345678",
+        "jurusan": "Teknik Geofisika",
+        "idDosenWali": 1
+    },
+    {
+        "nama": "Rahmawati",
+        "nim": "87654321",
+        "jurusan": "Teknik Informatika",
+        "idDosenWali": 2
+    },
+    {
+        "nama": "Budi Santoso",
+        "nim": "11223344",
+        "jurusan": "Teknik Elektro",
+        "idDosenWali": 1
+    }
+]
