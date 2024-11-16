@@ -4,24 +4,18 @@ This repository is my personal collection of notes and projects as I learn and g
 ## Contents:
 ### Frontend Development:
 - HTML, CSS, JavaScript
-- Frameworks and Libraries: React, Angular, Vue.js
+- Frameworks and Libraries: React, Vue
 - Responsive Design and Accessibility
 
 ### Backend Development:
 - Node.js, Express.js
-- Databases: SQL (MySQL, PostgreSQL), NoSQL (MongoDB)
-- RESTful APIs and GraphQL
-
-### Fullstack Projects:
-- MERN Stack (MongoDB, Express.js, React, Node.js)
-- MEAN Stack (MongoDB, Express.js, Angular, Node.js)
-- Deployment and DevOps
+- Databases: SQL (MySQL), NoSQL (MongoDB)
+- RESTful APIs
 
 ### Additional Resources:
-- Version Control with Git and GitHub
+- Version Control with GitHub
 - Testing and Debugging
 - Performance Optimization
-- Security Best Practices
 
 ## Goals:
 - To document my learning process and progress
