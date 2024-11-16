@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "price": 1200,
+	"img": "https://dibimbing-cdn.sgp1.cdn.digitaloceanspaces.com/1693586160053-10-Rekomendasi-Laptop-Terbaik-untuk-Data-Analyst-2023.webp",
+    "year": 2022,
+    "owner": { "name": "John Doe", "email": "john@example.com" }
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "price": 800,
+	"img": "https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2022/01/the-best-smartphones-in-the-2000-2500-tl-price-range-january-2022-G7EzkPc6.jpg?fit=1280%2C720&ssl=1",
+    "year": 2021,
+    "owner": { "name": "Jane Smith", "email": "jane@example.com" }
+  },
+  {
+    "id": 3,
+    "name": "Tablet",
+    "price": 400,
+	"img": "https://awsimages.detik.net.id/community/media/visual/2022/11/16/oppo-pad-air-5_169.jpeg?w=600&q=90",
+    "year": 2022,
+    "owner": { "name": "Bob Johnson", "email": "bob@example.com" }
+  },
+  {
+    "id": 4,
+    "name": "Headphones",
+    "price": 100,
+	"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxwdcO_iOfS7nRCBmJV2tEJktCCPNiv-bVOA&s",
+    "year": 2020,
+    "owner": { "name": "Alice Brown", "email": "alice@example.com" }
+  },
+  {
+    "id": 5,
+    "name": "Smartwatch",
+    "price": 250,
+	"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU7Bey7k0ZTUAmCkvwPRxgRKYdp_Z2-k8v9w&s",
+    "year": 2021,
+    "owner": { "name": "Charlie Davis", "email": "charlie@example.com" }
+  },
+  {
+    "id": 6,
+    "name": "Camera",
+    "price": 600,
+	"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlUVvG5SiXARnkWPpDl0fX-A0g8i1HjhQDW07llRP2O2ysDutOuwO-pqAC0He5LZq3nxQ&usqp=CAU",
+    "year": 2020,
+    "owner": { "name": "Eva Wilson", "email": "eva@example.com" }
+  },
+  {
+    "id": 7,
+    "name": "Gaming Console",
+    "price": 400,
+	"img": "https://hips.hearstapps.com/hmg-prod/images/gh-index-gamingconsoles-052-print-preview-1659705142.jpg",
+    "year": 2022,
+    "owner": { "name": "David Taylor", "email": "david@example.com" }
+  },
+  {
+    "id": 8,
+    "name": "Wireless Speaker",
+    "price": 80,
+	"img": "https://hips.hearstapps.com/hmg-prod/images/gh-index-gamingconsoles-052-print-preview-1659705142.jpg",
+    "year": 2021,
+    "owner": { "name": "Grace Moore", "email": "grace@example.com" }
+  },
+  {
+    "id": 9,
+    "name": "External Hard Drive",
+    "price": 120,
+	"img": "https://hips.hearstapps.com/hmg-prod/images/gh-index-gamingconsoles-052-print-preview-1659705142.jpg",
+    "year": 2019,
+    "owner": { "name": "Frank Brown", "email": "frank@example.com" }
+  },
+  {
+    "id": 10,
+    "name": "Printers",
+    "price": 150,
+	"img": "https://hips.hearstapps.com/hmg-prod/images/gh-index-gamingconsoles-052-print-preview-1659705142.jpg",
+    "year": 2020,
+    "owner": { "name": "Helen Miller", "email": "helen@example.com" }
+  }
+]

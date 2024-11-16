@@ -3,6 +3,7 @@ import FormInput from './components/FormInput'
 import { useState } from 'react'
 import './index.css'
 import Accordion from './components/accordion'
+import ToDoList from './components/pages/ToDoList'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         {submit && < FormDisplay nama={name} email={email}/>}
       </div>
       < Accordion />
+      <ToDoList />
     </>
   )
 }

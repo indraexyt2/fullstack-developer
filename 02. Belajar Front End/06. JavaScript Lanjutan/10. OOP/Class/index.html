@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasir Sederhana dengan Riwayat Transaksi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sistem Kasir</h1>
+    
+    <!-- Form Tambah Produk -->
+    <div class="form-container">
+        <h2>Tambah Produk</h2>
+        <input type="text" id="namaProduk" placeholder="Nama Produk">
+        <input type="number" id="hargaProduk" placeholder="Harga Produk">
+        <input type="number" id="stokProduk" placeholder="Stok Produk">
+        <button id="tambahProdukBtn">Tambah Produk</button>
+    </div>
+
+    <!-- Daftar Produk -->
+    <div class="product-list">
+        <h2>Daftar Produk</h2>
+        <ul id="daftarProduk"></ul>
+    </div>
+
+    <!-- Transaksi Penjualan -->
+    <div class="transaction-container">
+        <h2>Transaksi Penjualan</h2>
+        <select id="produkPenjualan"></select>
+        <input type="number" id="jumlahPenjualan" placeholder="Jumlah">
+        <button id="tambahKeranjangBtn">Tambah ke Keranjang</button>
+        <button id="jualProdukBtn">Jual Produk</button>
+        <h3>Total Harga: Rp<span id="totalHarga">0</span></h3>
+    </div>
+
+    <!-- Riwayat Transaksi -->
+    <div class="history-container">
+        <h2>Riwayat Transaksi</h2>
+        <ul id="riwayatTransaksi"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
